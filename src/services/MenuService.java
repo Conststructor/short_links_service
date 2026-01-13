@@ -15,7 +15,8 @@ public class MenuService {
     Link link;
 
     public void showMainMenu() {
-        System.out.println("0 - выйти");
+        System.out.println("Ваш UUID : " + user.getUuid());
+        System.out.println("0 - завершить программу");
         System.out.println("1 - создать новую ссылку");
         System.out.println("2 - перейти по короткой ссылке");
         System.out.println("3 - изменить параметры короткой ссылки");
